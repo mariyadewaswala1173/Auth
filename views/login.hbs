@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form id="loginForm" action="login" method="post">
+      <input type="text" name="email" id="email" placeholder="Email" required><br>
+      <input type="password" id="password" name="pass" placeholder="Password" required><br>
+      <span>{{errorMSG}}</span>
+      <button type="submit">Login</button>
+      {{!-- <input type="submit" value="Login"> --}}
+    </form>
+  </div>
+
+  {{!-- <script src="js/main.js"></script> --}}
+</body>
+</html>
